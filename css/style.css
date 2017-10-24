@@ -1,0 +1,208 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+	color: #333
+}
+
+.clear {
+	clear: both
+}
+
+.header {
+	background: #f9f9f9;
+	border-bottom: 1px solid #dedede;
+	position: relative;
+	z-index: 5
+}
+
+.auto {
+	width: 960px;
+	margin: 0 auto
+}
+
+.logo {
+	float: left;
+	background: url(../images/logo.png) no-repeat left center;
+	height: 64px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 40px;
+	line-height: 64px;
+}
+
+.nav {
+	float: right;
+	margin-right: 50px;
+}
+
+.nav .nav_a {
+	line-height: 64px;
+	margin: 0 25px;
+	float: left
+}
+
+.nav a:link,
+.nav a:visited {
+	color: #333;
+	text-decoration: none
+}
+
+.nav a:hover {
+	color: #999
+}
+
+.nav a.red:link,
+.nav a.red:visited,
+.nav a.red:hover {
+	color: #F00
+}
+
+.nav .red {
+	border-bottom: 3px solid #F00;
+}
+
+.pos {
+	position: relative
+}
+
+.banner {
+	margin: 15px auto;
+	margin-top: 0px;
+	background: #FBEFED
+}
+
+.banner_pic {
+	position: absolute;
+	left: 33px;
+	top: 33px;
+}
+
+.banner .yzm {
+	position: absolute;
+	left: 178px;
+	top: 108px;
+}
+
+.banner .banner_text {
+	position: absolute;
+	left: 560px;
+	top: 56px;
+}
+
+.banner .banner_text img {
+	margin-bottom: 16px;
+}
+
+.banner .title {
+	font-size: 38px;
+}
+
+.banner .title2 {
+	font-size: 18px;
+	color: #999;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.banner .other {
+	font-size: 12px;
+	color: #999
+}
+
+.footer {
+	background: #434343;
+	color: #FFF;
+	margin-top: 15px;
+}
+
+.w1100 {
+	width: 1100px;
+}
+
+.footer_text {
+	float: left;
+	width: 235px;
+	margin: 0 20px;
+	font-size: 12px;
+	line-height: 32px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.footer_text a {
+	float: left;
+}
+
+.footer_text a:link,
+.footer_text a:visited {
+	color: #FFF;
+	text-decoration: none
+}
+
+.footer_text a:hover {
+	color: #3CF
+}
+
+.footer_text .title {
+	font-size: 16px;
+	padding-top: 30px;
+	line-height: 32px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+	font-family: 微软雅黑;
+}
+
+.footer_link {
+	border-bottom: 1px solid #666;
+	padding-bottom: 30px;
+}
+
+.footer_end {
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	padding: 30px 0;
+}
+
+.footer_end span {
+	padding: 0 10px;
+}
+
+.black {
+	color: #000
+}
+
+.nav_text {
+	position: absolute;
+	top: 0px;
+	padding-top: 5px;
+	line-height: 40px;
+	font-size: 12px;
+	display: none;
+	border-bottom: 1px solid #CCC;
+	right: -50px;
+	width: 400px;
+	text-align: right
+}
+
+.nav_a:hover .nav_text,
+.nav_a:hover .w_bg {
+	display: block
+}
+
+.w_bg {
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+	height: 40px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 68px;
+	display: none
+}
+
+.nav_text a:link,
+.nav_text a:visited,
+.nav_text a:hover {
+	color: #09C
+}
